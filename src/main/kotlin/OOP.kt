@@ -54,7 +54,7 @@ class Developer(name: String,age: Int, employeeId: String, salary: Double, val f
 //kế thừa TeamMember
 class Manager(name: String, age: Int, employeeId: String, salary: Double ) :
     TeamMember(name, age, employeeId, salary){
-    override val role: String = "Manger"
+    override val role: String = "Manager"
     //ghi đè hàm work() mô tả cv
     override fun work(){
         println("Tôi đang quản lý dự án và các tv trong team")
